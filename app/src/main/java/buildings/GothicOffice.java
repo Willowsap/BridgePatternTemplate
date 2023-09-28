@@ -55,7 +55,8 @@ public class GothicOffice extends Building
     @Override
     public String describe()
     {
-        return String.format("An %d story gothic office building named %s "
-            + "with %.2f square ft of space", getNumFloors(), getName(), getArea());
+        return String.format("A %d story Gothic office building named "
+            + "%s with %.2f square ft of space. The office is large, cavernous, and pointy",
+            getNumFloors(), getName(), getArea());
     }
 }

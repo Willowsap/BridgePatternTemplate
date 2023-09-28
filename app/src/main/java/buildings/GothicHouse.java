@@ -29,7 +29,7 @@ public class GothicHouse extends Building
     @Override
     public String describe()
     {
-        return String.format("A dark and old looking house named %s "
-            + "with %.2f square ft of space", getName(), getArea());
+        return String.format("An Gothic house named %s with "
+            + "%.2f square ft of space. The house is large, cavernous, and pointy", getName(), getArea());
     }
 }

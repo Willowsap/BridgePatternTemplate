@@ -55,8 +55,9 @@ public class ModernOffice extends Building
     @Override
     public String describe()
     {
-        return String.format("An %d story office building "
-            + "with a sleek, minimalist look named %s "
-            + "with %.2f square ft of space", getNumFloors(), getName(), getArea());
+        return String.format("A %d story Modern office building named "
+            + "%s with %.2f square ft of space. The office is minimalist "
+            + "and primarily composed of straight lines and right angles",
+            getNumFloors(), getName(), getArea());
     }
 }

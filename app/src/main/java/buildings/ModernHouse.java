@@ -29,7 +29,9 @@ public class ModernHouse extends Building
     @Override
     public String describe()
     {
-        return String.format("A minimalist, sleek, modern-looking home named %s "
-            + "with %.2f square ft of space", getName(), getArea());
+        return String.format("A Modern house named %s "
+            + "with %.2f square ft of space. The house is minimalist "
+            + "and primarily composed of straight lines and right angles",
+            getName(), getArea());
     }
 }
